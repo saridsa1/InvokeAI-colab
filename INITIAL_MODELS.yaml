@@ -2,8 +2,7 @@
 sd-1/main/stable-diffusion-v1-5:
    description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
    repo_id: runwayml/stable-diffusion-v1-5
-   recommended: True
-   default: True
+   recommended: False
 sd-1/main/stable-diffusion-inpainting:
    description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
    repo_id: runwayml/stable-diffusion-inpainting
@@ -19,7 +18,8 @@ sd-2/main/stable-diffusion-2-inpainting:
 sdxl/main/stable-diffusion-xl-base-0-9:
    description: Stable Diffusion XL base model (12 GB; access token required)
    repo_id: stabilityai/stable-diffusion-xl-base-0.9
-   recommended: False
+   recommended: True
+   default: True
 sdxl-refiner/main/stable-diffusion-xl-refiner-0-9:
    description: Stable Diffusion XL refiner model (12 GB; access token required)
    repo_id: stabilityai/stable-diffusion-xl-refiner-0.9
@@ -31,7 +31,7 @@ sdxl/main/stable-diffusion-xl-base-1-0:
 sdxl-refiner/main/stable-diffusion-xl-refiner-1-0:
    description: Stable Diffusion XL refiner model (12 GB; access token required)
    repo_id: stabilityai/stable-diffusion-xl-refiner-1.0
-   recommended: False
+   recommended: True
 sd-1/main/Analog-Diffusion:
    description: An SD-1.5 model trained on diverse analog photographs (2.13 GB)
    repo_id: wavymulder/Analog-Diffusion
@@ -55,7 +55,7 @@ sd-1/main/Inkpunk-Diffusion:
 sd-1/main/openjourney:
    description: An SD 1.5 model fine tuned on Midjourney; prompt with "mdjrny-v4 style" (2.13 GB)
    repo_id: prompthero/openjourney
-   recommended: False
+   recommended: True
 sd-1/main/portraitplus:
    description: An SD-1.5 model trained on close range portraits of people; prompt with "portrait+" (2.13 GB)
    repo_id: wavymulder/portraitplus
@@ -71,7 +71,7 @@ sd-1/main/trinart_stable_diffusion_v2:
 sd-1/main/waifu-diffusion:
    description: An SD-1.5 model trained on 680k anime/manga-style images (2.13 GB)
    repo_id: hakurei/waifu-diffusion
-   recommended: False
+   recommended: True
 sd-1/controlnet/canny:
    repo_id: lllyasviel/control_v11p_sd15_canny
    recommended: True
